@@ -1,5 +1,6 @@
-# Disciplina-LPF2021.1
-Exemplo de Projeto Web
+# MinhaAplicacaoSpring
 
-Projeto ilustra como criar uma aplicação Web usando Kotlin e Spring.
+Exemplo de Aplicação Web Full Stack usando Springer Framework
 
+Bom aprendizado,
+Luis Carlos
