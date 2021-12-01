@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*
 import org.springframework.stereotype.Controller
 
 
-
 data class Mensagem(val nome:String, val msg:String)
 
 @SpringBootApplication
