@@ -4,9 +4,11 @@ import kotlinx.browser.*
 
 @JsName("botaoLimpar")
 fun limpar() {
-    val elem = document.getElementById("p1")
-    if (elem!=null) {
-        elem.innerHTML = ""
+    if (window.confirm("Voce tem certeza")) {
+      val elem = document.getElementById("p1")
+      if (elem!=null) {
+          elem.innerHTML = ""
+      }
     }
 }
 
@@ -27,4 +29,11 @@ fun main() {
     println("ola do navegador")
     for (c in 1..100)
       println("Linha impressa em kotlin numero $c")
+    window.alert("Bem vidos ao meu site") 
+    window.setInterval({
+        val elem = document.getElementById("p1")
+        if (elem!=null) {
+            elem.innerHTML += "<br> Tick\n"
+        }
+    },1000)
 }
